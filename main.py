@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 input_filename = 'top-1m.csv'
 output_filename = 'robot-txt.json'
-num_sites = 500
+num_sites = 50
 
 
 def scrape_csv(file_name):
