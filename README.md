@@ -19,6 +19,11 @@ Refer to the [Wiki](https://github.com/acchiao/robots-web-scraper/wiki) for full
 4. `source venv/bin/activate`
 5. `pip install -r requirements.txt`
 
+### Docker
+1. `cd robots-web-scraper/`
+2. `docker build -t rws .`
+3. `docker run rws`
+4. `docker cp <CONTAINER ID>:/usr/src/rws/robot-txt.json .`
 
 ## References
 - [Intoli](https://intoli.com/blog/analyzing-one-million-robots-txt-files/)
